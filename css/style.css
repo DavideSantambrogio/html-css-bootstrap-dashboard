@@ -11,7 +11,11 @@
 
 
 
-/* *{border: 1px solid black;}     */
+*{
+    /* border: 1px solid black; */
+font-size: .85rem;
+font-weight: 600;
+}    
 
 /* header */
 header {  
@@ -81,3 +85,8 @@ td img {
 .progress {
     background-color: goldenrod;
 }
+
+
+
+
+/* ricontrollare header */
