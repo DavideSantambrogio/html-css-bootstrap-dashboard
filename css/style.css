@@ -6,6 +6,7 @@
 :root {
     --sidebar: #051E34;
     --backgroud : #1B72E8;
+    --bell: #FF8F00;
 }
 
 *{border: 1px solid black;}    
@@ -13,10 +14,22 @@
 /* header */
 header {  
     height: 65px; 
+    align-items: center;
 } 
 
 header img {
     height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    
+}
+
+.fa-bell {
+    color: var(--bell);
+    margin-left: auto;
+    
 }
 
 /* sidebar */
