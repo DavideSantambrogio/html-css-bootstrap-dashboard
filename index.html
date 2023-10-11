@@ -12,7 +12,8 @@
         <div class="wrapper">
             <!-- header -->
             <header class="d-flex container">                
-                <img src="img/mobile-logo.png" alt="">                
+                <img class=" d-lg-none" src="img/mobile-logo.png" alt="">  
+                <img class="img-swg d-none d-lg-block" src="img/logo.svg" alt="">              
                 <nav class="navbar bg-light">
                     <form class="container-fluid">
                       <div class="input-group">
@@ -21,38 +22,57 @@
                       </div>
                     </form>
                 </nav>
-                <i class="fa-solid fa-bell " ></i>
+                <i class="fa-solid fa-bell "></i>
             </header>
                     
             <main class="d-flex "> 
                 <!-- sidebar -->
-                <div class="sidebar ms-auto col-lg-1">
-                
+                <div class="sidebar ms-auto col-sm-1 col-lg-2 d-flex flex-column align-items-center p-3">
+                    <div class="d-flex align-items-center pb-1">
+                        <i class="fa-solid fa-house px-2"></i>
+                        <div class="d-none d-lg-block">
+                            Home
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-1">
+                        <i class="fa-solid fa-chart-simple px-2"></i>
+                        <div class="d-none d-lg-block">
+                            Stats
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center pb-1">
+                        <i class="fa-solid fa-signal px-2"></i>
+                        <div class="d-none d-lg-block">
+                            Signal
+                        </div>
+                    </div>
+
+                    <div class="mt-auto d-flex align-items-center">
+                        <i class="fa-solid fa-gear px-2"></i>
+                        <div class="d-none d-lg-block">
+                            Admin
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="container main-container ms-0">                    
                     <div class="row">
                         <!-- boolean -->
-                        <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="boolean col-sm-12 col-md-12 col-lg-12">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum nobis minus fuga adipisci, illum similique porro? Ut, repellat perferendis libero tempora aperiam maxime, debitis odio fugiat corporis praesentium assumenda.
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="col-sm-12 col-md-12 col-lg-8p p-3">
                             <div class="row">
                                 <!-- prossime classi -->
                                 <div class="col-12">
                                     <div class="card text-bg-light mb-3">
                                         <div class="card-header">
                                             <h5 class="card-title">
-                                                Light card title
+                                                Prossime classi
                                             </h5>
                                         </div>
                                         <div class="card-body">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt distinctio totam ea hic! Ad, nemo. Cum enim in minima deserunt aut omnis consectetur architecto blanditiis reiciendis exercitationem, dolore error tenetur!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                            
                                 <div class="col-12">
                                     <!-- faq -->
                                     <div class="card text-bg-light mb-3">
