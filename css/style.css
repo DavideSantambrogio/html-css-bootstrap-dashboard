@@ -11,19 +11,24 @@
 *{border: 1px solid black;}    
 
 /* header */
-header {
-  
+header {  
     height: 65px; 
-}   
+} 
+
+header img {
+    height: 100%;
+}
 
 /* sidebar */
 .sidebar {
-
     height: calc(100vh - 65px);
-    width: 65px;
-}
+    min-width: 65px;
+    background-color: var(--sidebar);
+}    
 
-main {
-    display: flex;
-}
 
+/* main container */
+.main-container {
+    height: calc(100vh - 65px);
+    overflow-y: auto;
+}
