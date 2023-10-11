@@ -9,6 +9,8 @@
     --bell: #FF8F00;
 }
 
+
+
 /* *{border: 1px solid black;}     */
 
 /* header */
@@ -53,4 +55,29 @@ header img {
 /* boolean  */
 .boolean {
     background-color: var(--backgroud);
+}
+
+/* prossime classi */
+td img {
+    width: 25px;
+}
+
+.status {    
+    border-radius: 7px;
+    width: fit-content;
+    padding: 0 7px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.done {
+    background-color: green;
+}
+
+.failed {
+    background-color: red;
+}
+
+.progress {
+    background-color: goldenrod;
 }
