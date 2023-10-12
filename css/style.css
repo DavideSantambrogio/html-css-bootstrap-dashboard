@@ -7,6 +7,7 @@
     --sidebar: #051E34;
     --backgroud : #1B72E8;
     --bell: #FF8F00;
+    --background-btn: #165BBA;
     --header-height: 70px;
     --sidebar-width: 80px;
 }
@@ -18,11 +19,23 @@
     
 }
 
+
+/* common */
 *{
-    /* border: 1px solid black; */
-font-size: .85rem;
-font-weight: 600;
-}    
+
+    font-size: .85rem;
+    font-weight: 400;
+}   
+
+.btn-small {
+    border-radius: 7px;
+    width: fit-content;
+    padding: 0 7px;
+    font-size: 0.7rem;
+    
+}
+
+
 
 /* header */
 header {  
@@ -66,6 +79,12 @@ header img {
 /* boolean  */
 .boolean {
     background-color: var(--backgroud);
+    color: white;
+}
+
+.app {
+    background-color: var(--background-btn);
+    color: white;
 }
 
 /* prossime classi */
@@ -73,12 +92,8 @@ td img {
     width: 25px;
 }
 
-.status {    
-    border-radius: 7px;
-    width: fit-content;
-    padding: 0 7px;
-    color: white;
-    font-size: 0.7rem;
+.status {   
+    color: white;    
 }
 
 .done {
@@ -89,11 +104,13 @@ td img {
     background-color: red;
 }
 
-.progress {
+.progres {
     background-color: goldenrod;
 }
 
 
 
 
-/* ricontrollare header */
+
+/* ricontrollare header
+ricontrollare sidebar */
