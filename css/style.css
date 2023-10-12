@@ -7,9 +7,16 @@
     --sidebar: #051E34;
     --backgroud : #1B72E8;
     --bell: #FF8F00;
+    --header-height: 70px;
+    --sidebar-width: 80px;
 }
 
-
+@media screen and (min-width:992px) {
+    :root {
+        --sidebar-width: 200px;
+    }
+    
+}
 
 *{
     /* border: 1px solid black; */
@@ -19,7 +26,7 @@ font-weight: 600;
 
 /* header */
 header {  
-    height: 65px; 
+    height: var(--header-height); 
     align-items: center;
 } 
 
@@ -43,8 +50,8 @@ header img {
 
 /* sidebar */
 .sidebar {
-    height: calc(100vh - 65px);
-    min-width: 65px;
+    height: calc(100vh - var(--header-height) );
+    width: var();
     background-color: var(--sidebar);
     color: white;
 }    
@@ -52,7 +59,7 @@ header img {
 
 /* main container */
 .main-container {
-    height: calc(100vh - 65px);
+    height: calc(100vh - var(--header-height));
     overflow-y: auto;
 }
 
